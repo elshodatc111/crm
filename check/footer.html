@@ -7,10 +7,19 @@
     <i class="bi bi-arrow-up-short"></i></a>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/tinymce/tinymce.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="assets/js/jquery.inputmask.min.js"></script>
     <script>
         $(document).ready(function() {
             $('#dataTable').DataTable({
                 "pageLength": 5,
             });
         });
+        $(document).ready(function(){
+            $('.phone').inputmask('999 99 999 9999');
+            $('.pasport').inputmask('AA 9999999');
+            $('.pnfl').inputmask('99999999999999');
+        });
     </script>
+    
+	
