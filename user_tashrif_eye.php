@@ -27,11 +27,104 @@
         </ol>
       </nav>
     </div>
-    <div class="card info-card sales-card">
-      <div class="text-center">
-        <h5 class="card-title w-100 text-center m-0 p-0 mt-1">
-          ssss
-        </h5>
+    <div class="card info-card py-2">
+      <div class="row text-center" style="font-size:14px">
+        <div class="col-lg-4">
+          <h5 style="font-weight:800">ELSHOD MUSURMONOV</h5>
+          <table class="table">
+            <tr>
+              <td style="text-align:left;font-weight:600;">Telefon raqam:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Manzil:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Tug'ilgan kun:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Tanishi:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Tanishi Tel:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Messegerlar:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Talaba haqida:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-lg-4">
+        <h5 style="font-weight:800">Balans: -2 323 232 so'm</h5>
+          <table class="table">
+            <tr>
+              <td style="text-align:left;font-weight:600;">To'lovlar:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Chegirma:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Qaytarilgan to'lovlar:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Jarima:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Guruhlarha to'lovlar:</td>
+              <td style="text-align:right"><i>+99 899 </i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Tashrif vaqti:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+            <tr>
+              <td style="text-align:left;font-weight:600;">Taxrirlandi:</td>
+              <td style="text-align:right"><i>+99 899 666 5252</i></td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <button class="btn btn-outline-primary mb-1" style="border-radius:0;width:90%;">TO'LOV QILISH</button>
+          <button class="btn btn-outline-primary mb-1" style="border-radius:0;width:90%;">GURUHGA QO"SHISH</button>
+          <button class="btn btn-outline-primary mb-1" style="border-radius:0;width:90%;">ESLATMA QOLDIRISH</button>
+          <button class="btn btn-outline-primary mb-1" style="border-radius:0;width:90%;">SMS YUBORISH</button>
+          <button class="btn btn-outline-primary mb-1" style="border-radius:0;width:90%;">CHEGIRMA</button>
+          <button class="btn btn-outline-primary mb-1" style="border-radius:0;width:90%;">TALABA GURUHLARI</button>
+          <button class="btn btn-outline-primary mb-1" style="border-radius:0;width:90%;">TALABA DAVOMAD</button>
+        </div>
+        <div class="col-12">
+          <hr>
+          <div class="table-responsive p-0 m-0">
+            <table class="table">
+              <tr>
+                <th>#</th>
+                <th>dddd</th>
+                <th>ssss</th>
+                <th>ssss</th>
+                <th>ssss</th>
+              </tr>
+              <tr>
+                <td>s</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   
