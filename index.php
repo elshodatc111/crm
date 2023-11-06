@@ -19,7 +19,7 @@
 <body>
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="d-flex align-items-center justify-content-between ">
-      <a href="./index.html" class="logo d-flex align-items-center">
+      <a href="./index.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" style="margin: 0 auto;width: 120px;">
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i> 
@@ -27,13 +27,13 @@
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
         <li class="nav-item dropdown">
-          <a class="nav-link nav-icon" href="./tkun.html">
+          <a class="nav-link nav-icon" href="./tkun.php">
             <i class="bi bi-bell"></i>
             <span class="badge bg-primary badge-number">6</span>
           </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link nav-icon" href="./eslatma.html">
+          <a class="nav-link nav-icon" href="./eslatma.php">
             <i class="bi bi-chat-left-text"></i>
             <span class="badge bg-success badge-number">0</span>
           </a>
@@ -52,7 +52,7 @@
               <hr class="dropdown-divider">
             </li>
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="./kobinet.html">
+              <a class="dropdown-item d-flex align-items-center" href="./kobinet.php">
                 <i class="bi bi-person"></i>
                 <span>Kabinet</span>
               </a>
@@ -64,7 +64,7 @@
               <hr class="dropdown-divider">
             </li>
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="./login.html">
+              <a class="dropdown-item d-flex align-items-center" href="./login.php">
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Chiqish</span>
               </a>
@@ -78,7 +78,7 @@
   <aside id="sidebar" class="sidebar">
     <ul class="sidebar-nav" id="sidebar-nav">
       <li class="nav-item">
-        <a class="nav-link " href="./index.html">
+        <a class="nav-link " href="./index.php">
           <i class="bi bi-grid"></i>
           <span>Bosh sahifa</span>
         </a>
@@ -89,17 +89,17 @@
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="./user_tashrif.html" class="">
+            <a href="./user_tashrif.php" class="">
               <i class="bi bi-circle"></i><span>Tashriflar</span>
             </a>
           </li>
           <li>
-            <a href="./user_tashrif_qarzdorlar.html" class="">
+            <a href="./user_tashrif_qarzdorlar.php" class="">
               <i class="bi bi-circle"></i><span>Qarzdorlar</span>
             </a>
           </li>
           <li>
-            <a href="./user_tashrif_tulovlar.html" class="">
+            <a href="./user_tashrif_tulovlar.php" class="">
               <i class="bi bi-circle"></i><span>To'lovlar</span>
             </a>
           </li>
@@ -111,24 +111,24 @@
         </a>
         <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="./guruh_plus.html" class="">
+            <a href="./guruh_plus.php" class="">
               <i class="bi bi-circle"></i><span>Yangi guruh qo'shish</span>
             </a>
           </li>
           <li>
-            <a href="./guruh_start.html" class="">
+            <a href="./guruh_start.php" class="">
               <i class="bi bi-circle"></i><span>Guruhlar</span>
             </a>
           </li>
           <li>
-            <a href="./guruh_end.html" class="">
+            <a href="./guruh_end.php" class="">
               <i class="bi bi-circle"></i><span>Yakunlangan guruhlar</span>
             </a>
           </li>
         </ul>
       </li>
       <li class="nav-item">
-        <a class="nav-link collapsed" href="./hisobot_tashrif.html">
+        <a class="nav-link collapsed" href="./hisobot_tashrif.php">
           <i class="bi bi-layout-text-window-reverse"></i><span>Hisobotlar</span>
         </a>
       </li>
@@ -138,46 +138,46 @@
         </a>
         <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="./stat_kun_tashrif.html" class="">
+            <a href="./stat_kun_tashrif.php" class="">
               <i class="bi bi-circle"></i><span>Kunlik tashriflar</span>
             </a>
           </li>
           <li>
-            <a href="./stat_oy_tashrif.html" class="">
+            <a href="./stat_oy_tashrif.php" class="">
               <i class="bi bi-circle"></i><span>Oylik tashriflar</span>
             </a>
           </li>
           <li>
-            <a href="./stat_kun_tolov.html" class="">
+            <a href="./stat_kun_tolov.php" class="">
               <i class="bi bi-circle"></i><span>Kunlik to'lovlar</span>
             </a>
           </li>
           <li>
-            <a href="./stat_oy_tolov.html" class="">
+            <a href="./stat_oy_tolov.php" class="">
               <i class="bi bi-circle"></i><span>Oylik to'lovlar</span>
             </a>
           </li>
         </ul>
       </li>
       <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#icons-nav" href="./moliya.html">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" href="./moliya.php">
           <i class="bi bi-gem"></i><span>Moliya</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link collapsed" href="./techer.html">
+        <a class="nav-link collapsed" href="./techer.php">
           <i class="bi bi-person-bounding-box"></i>
           <span>O'qituvchilar</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link collapsed" href="./hodimlar.html">
+        <a class="nav-link collapsed" href="./hodimlar.php">
           <i class="bi bi-person"></i>
           <span>Hodimlar</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link collapsed" href="./xonalar.html">
+        <a class="nav-link collapsed" href="./xonalar.php">
           <i class="bi bi-question-circle"></i>
           <span>Xonalar</span>
         </a>
@@ -190,7 +190,7 @@
       <h1>Bosh sahifa</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
           <li class="breadcrumb-item active">Bosh sahifa</li>
         </ol>
       </nav>
