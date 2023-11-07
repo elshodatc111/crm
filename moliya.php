@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+  include_once("./check/top_head.php");
+?>
 <html lang="en">
 
 <head>
