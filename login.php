@@ -1,4 +1,8 @@
-
+<?php
+  if(isset($_COOKIE['UserID'])){
+    setcookie('UserID', '', time() - 1800, "/");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,25 +37,22 @@
               <div class="card mb-3">
                 <div class="card-body">
                   <div class="pt-4 pb-2"></div>
-                  <form class="row g-3 needs-validation" novalidate>
-
+                  <p class='text-danger w-100 text-center' style="<?php if(!isset($_GET['login'])){echo 'display:none;';} ?>">Login yoki parol xato</p>
+                  <form class="row g-3 needs-validation" action="./config/login.php" method="POST" novalidate>
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Login</label>
                       <div class="input-group has-validation">
                         <input type="text" name="username" class="form-control" required>
                       </div>
                     </div>
-
                     <div class="col-12">
                       <label for="yourPassword" class="form-label">Parol</label>
                       <input type="password" name="password" class="form-control" required>
                     </div>
-
                     <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit">KIRISH</button>
+                      <button class="btn btn-primary w-100" name="login" type="submit">KIRISH</button>
                     </div>
                   </form>
-
                 </div>
               </div>
 

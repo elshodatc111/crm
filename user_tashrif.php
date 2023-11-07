@@ -65,22 +65,22 @@
                         <label class="form-label">Yashash manzil</label>
                         <select name="Manzil" class="form-control" style="border-radius: 0;" required>
                             <option value="">Tanlang</option>
-                            <option value="10242">Chiroqchi tuman</option>
-                            <option value="10212">Dexqonobod tuman</option>
-                            <option value="10207">G'uzor tuman</option>
-                            <option value="10237">Kasbi tuman</option>
-                            <option value="10232">Kitob tuman</option>
-                            <option value="10240">Ko'kdala tuman</option>
-                            <option value="10229">Koson tuman</option>
-                            <option value="10233">Mirishkor tuman</option>
-                            <option value="10234">Muborak tuman</option>
-                            <option value="10235">Nishon tuman</option>
-                            <option value="10220">Qamashi tuman</option>
-                            <option value="10401">Qarshi shahar</option>
-                            <option value="10224">Qarshi tuman</option>
-                            <option value="10246">Shaxrisabz shahar</option>
-                            <option value="10245">Shaxrisabz tuman</option>
-                            <option value="10250">Yakkabog' tuman</option>
+                            <option value="Chiroqchi tuman">Chiroqchi tuman</option>
+                            <option value="Dexqonobod tuman">Dexqonobod tuman</option>
+                            <option value="G`uzor tuman">G'uzor tuman</option>
+                            <option value="Kasbi tuman">Kasbi tuman</option>
+                            <option value="Kitob tuman">Kitob tuman</option>
+                            <option value="Ko`kdala tuman">Ko'kdala tuman</option>
+                            <option value="Koson tuman">Koson tuman</option>
+                            <option value="Mirishkor tuman">Mirishkor tuman</option>
+                            <option value="Muborak tuman">Muborak tuman</option>
+                            <option value="Nishon tuman">Nishon tuman</option>
+                            <option value="Qamashi tuman">Qamashi tuman</option>
+                            <option value="Qarshi shahar">Qarshi shahar</option>
+                            <option value="Qarshi tuman">Qarshi tuman</option>
+                            <option value="Shaxrisabz shahar">Shaxrisabz shahar</option>
+                            <option value="Shaxrisabz tuman">Shaxrisabz tuman</option>
+                            <option value="Yakkabog` tuman">Yakkabog' tuman</option>
                         </select>
                     </div>
                     <div class="mb-3">
@@ -103,7 +103,7 @@
                         <label class="form-label">Tashrif haqida</label>
                         <input type="text" name="TashrifHaqida" class="form-control" style="border-radius: 0;" required>
                     </div>
-                    <button type="submit" class="btn btn-success w-100" style="border-radius: 0;"><i class="bi bi-plus-square" style="font-size:18px"></i></i> SAQLASH</button>
+                    <button type="submit" name="tashrifPlus" class="btn btn-success w-100" style="border-radius: 0;"><i class="bi bi-plus-square" style="font-size:18px"></i></i> SAQLASH</button>
                 </form>
             </div>
           </div>

@@ -22,12 +22,12 @@
         <li class="nav-item dropdown pe-3">
           <a class="nav-link nav-profile d-flex align-items-center pe-0" data-bs-toggle="dropdown">
             <img src="assets/img/ss.jpg" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">Admin123</span>
+            <span class="d-none d-md-block dropdown-toggle ps-2"><?php echo $A_Username; ?></span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6>Elshod Musurmonov</h6>
-              <span>Admin123</span>
+              <h6><?php echo $A_FIO; ?></h6>
+              <span><?php echo $A_Username; ?></span>
             </li>
             <li>
               <hr class="dropdown-divider">
